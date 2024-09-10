@@ -1,9 +1,8 @@
-/* Универсальный селектор */
+
 * {
     box-sizing: border-box;
 }
 
-/* Базовая настройка страницы */
 body {
     margin: 0;
     padding: 0;
@@ -12,16 +11,16 @@ body {
     line-height: 1.4;
 }
 
-/* Шапка и футер */
+
 .header, .footer {
     background-color: green;
     color: white;
     text-align: center;
     padding: 10px 0;
-    font-size: 1em; /* Уменьшенный размер шрифта */
+    font-size: 1em; 
 }
 
-/* Основное содержимое */
+
 .content {
     background-color: blue;
     color: white;
@@ -29,21 +28,21 @@ body {
     min-height: 600px;
     margin: 0 5%;
     display: flex;
-    flex-direction: column; /* Размещение элементов вертикально */
+    flex-direction: column; 
 }
 
 .content h2 {
-    font-size: 1.6em; /* Уменьшенный размер шрифта */
+    font-size: 1.6em; 
     color: yellow;
 }
 
-/* Квадрат с белыми толстыми границами и скругленными углами */
+
 .square {
     width: 100px;
     height: 100px;
     border: 8px solid white;
-    border-radius: 25px 0 25px 0; /* Скругленные углы */
-    float: left; /* Обтекание текста */
+    border-radius: 25px 0 25px 0; 
+    float: left; 
     margin: 0 15px 10px 0;
 }
 
@@ -57,11 +56,11 @@ ul > li {
     margin-bottom: 10px;
 }
 
-/* Стили для таблицы */
+
 table {
     border-collapse: collapse;
     width: 100%;
-    margin: 0; /* Убрано отступы */
+    margin: 0; 
 }
 
 td {
@@ -81,57 +80,56 @@ td.red {
     color: white;
 }
 
-/* Каждая секция внутри .content */
+
 .content > section {
     flex: 1;
 }
 
-/* Таблица и картинка над футером */
-/* Основное содержимое */
+
 .main-content {
-    margin-bottom: 20px; /* Отступ между основным текстом и визуальными стилями */
+    margin-bottom: 20px;
 }
 
-/* Основное содержимое */
+
 .main-content {
-    margin-bottom: 20px; /* Отступ между основным текстом и визуальными стилями */
+    margin-bottom: 20px; 
 }
 
-/* Размещение визуальных стилей и таблицы в одном ряду */
+
 .visuals-and-table {
     display: flex;
-    justify-content: space-between; /* Выравнивание по краям */
-    gap: 20px; /* Отступ между элементами */
+    justify-content: space-between; 
+    gap: 20px; 
 }
 
-/* Блок визуальных стилей */
+
 .visual-styles {
-    flex: 1; /* Занимает доступное пространство */
+    flex: 1; 
 }
 
-/* Таблица и картинка над футером */
+
 .bottom-content {
     display: flex;
-    flex-direction: column; /* Размещение элементов по вертикали */
-    gap: 20px; /* Отступ между таблицей и картинкой */
+    flex-direction: column; 
+    gap: 20px; 
 }
 
 .bottom-content-inner {
-    display: flex; /* Размещение элементов по горизонтали */
-    gap: 20px; /* Отступ между таблицей и картинкой */
+    display: flex; 
+    gap: 20px; 
 }
 
 .bottom-content .narrow-table {
-    width: auto; /* Таблица становится уже */
+    width: auto; 
 }
 
 .table-container {
-    display: block; /* Таблица занимает всю ширину контейнера */
+    display: block;
 }
 
-/* Картинка в контейнере */
+
 .image-container {
-    display: block; /* смещает только блоки */ 
+    display: block; 
     margin-left: auto;
 }
 
