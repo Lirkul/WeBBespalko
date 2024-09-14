@@ -3,75 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Lab1</title>
-    <link rel="stylesheet" type="text/css" href="Lab1WEB.css">
+    <title>Styled Page</title>
+    <link rel="stylesheet" href="Lab1WEB.css">
 </head>
 <body>
-    <header class="header">
+    <header>
         <h1>Hello, Header!</h1>
     </header>
+    
+    <main>
+        <div class="content-box">
+            <h1>Hello, content!</h1>
+            <div class="image-placeholder"></div>
+            <p class="text_lorem">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.   
+            </p>
+            <a href="http://www.csd.tsu.ru">www.csd.tsu.ru</a>
 
-    <div class="content">
-        <div class="main-content">
-            <section>
-                <h2>Hello, content!</h2>
-
-         
-                <div class="square"></div>
-
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                
-                <a href="http://www.csd.tsu.ru">www.csd.tsu.ru</a>
-            </section>
-
-            <aside>
-                <h3 class="aligned"><span class="red">Here</span> is the list:</h3>
+            <h2 class="h2_list"><span class="colortext">Here</span> is the list:</h2>
+            <div class="first_list">
                 <ul>
                     <li>Value 1</li>
-                    <li><span class="cyan">V a l u e 2</span></li>
+                    <li><span class="green-text">Value 2</span></li>
                     <li>Value 3</li>
                 </ul>
-            </aside>
-        </div>
-
-        <div class="visuals-and-table">
-            <div class="visual-styles">
-                <h3 class="aligned">Here are some visual styles:</h3>
-                <p><i>Italic</i></p>
-                <p><b>Bold</b></p>
-                <p><u>UnderLined</u></p>
-                <p><s>Line through</s></p>
             </div>
 
-            <section class="bottom-content">
-                <div class="bottom-content">
-                    <div class="table-container">
-                        <table class="narrow-table">
-                            <tr>
-                                <td class="green" colspan="2">1</td>
-                                <td>2</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>4</td>
-                                <td>5</td>
-                            </tr>
-                            <tr>
-                                <td>6</td>
-                                <td class="red" colspan="2">7</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="image-container">
-                        <img src="images.png" alt="Lab Image">
-                    </div>
-                </div>                
-            </section>
+            <div class="container">
+                <div class="example_modify">
+                    <h2>Here are some visual styles:</h2>
+                    <p style="margin-bottom: 7px;"><em>Italic</em></p>
+                    <p style="margin-bottom: 13px;"><strong>Bold</strong></p>
+                    <p style="margin-bottom: 18px;"><u>Underlined</u></p>
+                    <p><del>Line through</del></p>
+                </div>
+            
+                <div class="grid">
+                    <div class="grid-item-green">1</div>
+                    <div class="grid-item">2</div>
+                    <div class="grid-item">3</div>
+                    <div class="grid-item">4</div>
+                    <div class="grid-item">5</div>
+                    <div class="grid-item">6</div>
+                    <div class="grid-item-red">7</div>
+                </div>
+            </div>
         </div>
-    </div>
+    </main>
 
-    <footer class="footer">
-        <h1>Hello, Footer!</h1>
+    <footer>
+        <p>Hello, Footer!</p>
     </footer>
 </body>
 </html>
